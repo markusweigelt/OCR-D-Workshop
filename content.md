@@ -6,7 +6,7 @@ layout: true
   <table>
     <tr>
       <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
-      <td>Date</td>
+      <td>15.12.2022</td>
       <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
@@ -19,16 +19,16 @@ layout: true
 <div class="my-title-footer">
   <table>
     <tr>
-      <td style="text-align:left"><b>Kay-Michael Würzner</b></td>
+      <td style="text-align:left"><b>Markus Weigelt</b></td>
     </tr>
     <tr>
       <td style="text-align:left">Referat 2.5</td>
     </tr>
     <tr>
-      <td style="font-size:8pt"><b>Date</b></td>
+      <td style="font-size:8pt"><b>15.12.2022</b></td>
     </tr>
     <tr>
-      <td style="font-size:8pt">Event</td>
+      <td style="font-size:8pt">OCR-D Workshop</td>
     </tr>
   </table>
 </div>
