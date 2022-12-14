@@ -36,10 +36,9 @@ layout: true
 ---
 
 class: title-slide
-count: false
 
-# Title
-## Subtitle
+# OCR-D Workshop 
+## State of implementation project 
 
 ---
 
@@ -52,7 +51,6 @@ count: false
 ---
 
 class: part-slide
-count: false
 
 # Topic 1
 
