@@ -61,5 +61,5 @@ class: part-slide
 # Many thanks for your attention!
 
 <center>
-<a href="https://wrznr.github.io/slide-template/">wrznr.github.io/slide-template</a>
+[wrznr.github.io/slide-template](https://github.com/markusweigelt/OCR-D-Workshop)
 </center>
