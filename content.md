@@ -61,5 +61,5 @@ class: part-slide
 # Many thanks for your attention!
 
 <center>
-[markusweigelt.github.io/OCR-D-Workshop](https://markusweigelt.github.io/OCR-D-Workshop)
+  <a href="https://markusweigelt.github.io/OCR-D-Workshop">markusweigelt.github.io/OCR-D-Workshop</a>
 </center>
