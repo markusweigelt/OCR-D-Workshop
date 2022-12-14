@@ -31,10 +31,7 @@ layout: true
 <div class="title-footer">
   <table>
     <tr>
-      <td style="text-align:left"><b>Markus Weigelt</b></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Referat 2.5</td>
+      <td style="text-align:left"><b>Erik Sommer (SLUB), Robert Sachunsky (SLUB), Sven Marcus (TU Brauenschweig), Markus Weigelt (SLUB)</b></td>
     </tr>
     <tr>
       <td style="font-size:8pt"><b>15.12.2022</b></td>
@@ -54,17 +51,39 @@ count: false
 ## State of integration Kitodo and OCR-D
 
 ---
+class: part-slide
 
-# Overview
+# General changes
 
-- Section 1
-  + Subsection 1
-- Section 2
+- Transfed repositories to general organization -> slub/...
+- Add GitHub packages and GitHub workflow to build them 
+- Use profiles to selectively enable/disable OCR-D Controller and/or Kitodo.Production
 
 ---
 class: part-slide
 
-# Documenation
+# OCR-D Manager
+    
+- METS to METS processing using -> for_presentation.sh 
+- Allow rerunning processing after already processed
+- Improvements and bugfixing of ocrd_lib.sh used by for_production.sh and for_presentation.sh 
+
+---
+class: part-slide
+
+# OCR-D Monitor
+    
+- Initial implemenation of application using Flask 
+ + browsing workspaces with OCR-D Browser to inspect intermediate/final processing results
+ + getting statistics of running and terminated jobs   
+- Refactoring to FastAPI (cause of native WebSocket support)
+ + Using WebSockets for the proxy to browse multiple OCR-D Browser instances 
+ + Implementation is mostly done but not yet completely intergate
+      
+---
+class: part-slide
+
+# Documentation
 
 <center>
   <a href="https://slub.github.io/ocrd_kitodo">slub.github.io/ocrd_kitodo</a>
